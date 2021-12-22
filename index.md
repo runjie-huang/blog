@@ -10,6 +10,7 @@ Sys.setlocale(category = "LC_ALL",locale = "English_United States.1252")
 ```
   Then save the file.
 * step3: Restart R
- Finally, you will see
+ 
+ * Finally, you will see
  ![image](https://user-images.githubusercontent.com/88473583/147118513-6af1c80e-d088-42aa-a2fe-b2abb83e5629.png)
 
