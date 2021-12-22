@@ -5,33 +5,12 @@ You can use the [editor on GitHub](https://github.com/runjie-huang/blog/edit/gh-
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
+This is my first blog.
+Mission:Change Language Setting to English in R & RStudio permanently
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* step1: find the path of file： *Rprofile.site*. For me, it is *D:\software\R\R-4.0.5\etc\Rprofile.site*
+* step2: open it and add *Sys.setlocale(category = "LC_ALL",locale = "English_United States.1252")*. Then save the file.
+* step3: Restart R
+ you will see
+ ![image](https://user-images.githubusercontent.com/88473583/147118513-6af1c80e-d088-42aa-a2fe-b2abb83e5629.png)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/runjie-huang/blog/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
