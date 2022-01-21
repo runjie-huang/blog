@@ -1,10 +1,10 @@
-##This command to check rstudio server
+## This command to check rstudio server
 ```
 rstudio-server failing to start
 ```
 ![image](https://user-images.githubusercontent.com/88473583/150475524-5169a7c5-fc5b-4007-b2ba-40619a28087e.png)
 
-##The reason why you can not restart rstudio-server is that the PORT 8787 was been using by previous rserver. After knowing this, the solution is easy. First, check the pid that was using PORT 8787
+## The reason why you can not restart rstudio-server is that the PORT 8787 was been using by previous rserver. After knowing this, the solution is easy. First, check the pid that was using PORT 8787
 ```
 sudo netstat -anp | grep 8787
 ```
